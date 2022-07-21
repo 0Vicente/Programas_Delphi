@@ -1,0 +1,88 @@
+object Form1: TForm1
+  Left = 192
+  Top = 124
+  Width = 324
+  Height = 276
+  Caption = 'Imprimir n'#250'meros del 1 al 15 -'
+  Color = clNavy
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Edit1: TEdit
+    Left = 32
+    Top = 56
+    Width = 145
+    Height = 28
+    Color = clNone
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clRed
+    Font.Height = -16
+    Font.Name = 'MS Sans Serif'
+    Font.Style = []
+    MaxLength = 1
+    ParentFont = False
+    TabOrder = 0
+    OnKeyPress = edit1keypress
+  end
+  object Edit2: TEdit
+    Left = 32
+    Top = 88
+    Width = 145
+    Height = 28
+    Color = clNone
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clRed
+    Font.Height = -16
+    Font.Name = 'MS Sans Serif'
+    Font.Style = []
+    MaxLength = 2
+    ParentFont = False
+    TabOrder = 1
+    OnKeyPress = edit2keypress
+  end
+  object Edit3: TEdit
+    Left = 32
+    Top = 120
+    Width = 145
+    Height = 28
+    Color = clNone
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clRed
+    Font.Height = -16
+    Font.Name = 'MS Sans Serif'
+    Font.Style = []
+    MaxLength = 2
+    ParentFont = False
+    TabOrder = 2
+    OnKeyPress = edit3keypress
+  end
+  object Button1: TButton
+    Left = 40
+    Top = 168
+    Width = 121
+    Height = 41
+    Caption = 'Imprimir'
+    TabOrder = 3
+    OnClick = Button1Click
+  end
+  object ListBox1: TListBox
+    Left = 232
+    Top = 40
+    Width = 49
+    Height = 185
+    Color = clNone
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clRed
+    Font.Height = -11
+    Font.Name = 'MS Sans Serif'
+    Font.Style = []
+    ItemHeight = 13
+    ParentFont = False
+    TabOrder = 4
+  end
+end

@@ -1,0 +1,199 @@
+object Form1: TForm1
+  Left = 262
+  Top = 133
+  Width = 559
+  Height = 541
+  Caption = 'Instrucciones'
+  Color = clWhite
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object lbl1: TLabel
+    Left = 163
+    Top = 8
+    Width = 148
+    Height = 32
+    Caption = 'Instruciones'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clBlue
+    Font.Height = -27
+    Font.Name = 'Old English Text MT'
+    Font.Style = []
+    ParentFont = False
+  end
+  object lbl2: TLabel
+    Left = 32
+    Top = 64
+    Width = 361
+    Height = 13
+    Caption = 
+      'Para llenar este formulario correctamente debes seguir estas ins' +
+      'trucciones:'
+  end
+  object lbl3: TLabel
+    Left = 32
+    Top = 88
+    Width = 464
+    Height = 13
+    Caption = 
+      '*El a'#241'o debe ser completado en formato de cuatro d'#237'gitos, es dec' +
+      'ir, si el a'#241'o en el que entraste  '
+  end
+  object lbl4: TLabel
+    Left = 32
+    Top = 104
+    Width = 464
+    Height = 13
+    Caption = 
+      'es dos mil quince en el espacio destinado para el a'#241'o deber'#225's in' +
+      'sertar 2015, de lo contrario esto '
+  end
+  object lbl5: TLabel
+    Left = 32
+    Top = 144
+    Width = 461
+    Height = 13
+    Caption = 
+      '*Para completar la secci'#243'n de periodo, debes insertar el periodo' +
+      ' con todas las letras min'#250'sculas,'
+  end
+  object lbl6: TLabel
+    Left = 32
+    Top = 160
+    Width = 436
+    Height = 13
+    Caption = 
+      'Y con un guion en el centro, es decir, si entraste en el primer ' +
+      'periodo deber'#225's completar el '
+  end
+  object lbl7: TLabel
+    Left = 32
+    Top = 176
+    Width = 339
+    Height = 13
+    Caption = 
+      'formulario  insertando enero-abril, de lo contrario esto produci' +
+      'r'#225' error.'
+  end
+  object lbl8: TLabel
+    Left = 32
+    Top = 200
+    Width = 439
+    Height = 13
+    Caption = 
+      '*Para completar la secci'#243'n de la carrera debes escribir el nombr' +
+      'e de la carrera completo sin '
+  end
+  object lbl9: TLabel
+    Left = 32
+    Top = 216
+    Width = 457
+    Height = 13
+    Caption = 
+      'abreviaciones, es decir si estudias ing. Civil deber'#225's escribir ' +
+      'ingenier'#237'a civil, de lo contrario esto '
+  end
+  object lbl10: TLabel
+    Left = 32
+    Top = 256
+    Width = 444
+    Height = 13
+    Caption = 
+      '*Para completar la secci'#243'n de tanda solo debes escribir la tanda' +
+      ' en min'#250'scula, es decir, si tu '
+  end
+  object lbl11: TLabel
+    Left = 32
+    Top = 272
+    Width = 204
+    Height = 13
+    Caption = 'tanda es la Noche deber'#225's insertar noche.'
+  end
+  object lbl12: TLabel
+    Left = 32
+    Top = 296
+    Width = 457
+    Height = 13
+    Caption = 
+      '*Para completar la secci'#243'n de sede deber'#225's insertar la ubicaci'#243'n' +
+      ' de la sede en la que estudias, '
+  end
+  object lbl13: TLabel
+    Left = 32
+    Top = 312
+    Width = 451
+    Height = 13
+    Caption = 
+      'es decir, si es la de metacentro deber'#225's insertar santo domingo ' +
+      'este, a excepci'#243'n de la, de la '
+  end
+  object lbl14: TLabel
+    Left = 32
+    Top = 328
+    Width = 165
+    Height = 13
+    Caption = 'feria que deber'#225's insertar central.'
+  end
+  object lbl15: TLabel
+    Left = 32
+    Top = 352
+    Width = 430
+    Height = 13
+    Caption = 
+      '*Para completar la secci'#243'n de numero solo debes indicar el n'#250'mer' +
+      'o que le fue asignado al '
+  end
+  object lbl16: TLabel
+    Left = 32
+    Top = 368
+    Width = 461
+    Height = 13
+    Caption = 
+      'momento de la inscripci'#243'n,  sabiendo que debes insertarlo complo' +
+      'to, es decir, si te fue asignado '
+  end
+  object lbl17: TLabel
+    Left = 32
+    Top = 384
+    Width = 282
+    Height = 13
+    Caption = 'el 50 deber'#225's insertar un numero de 3 d'#237'gitos, o sea, 050. '
+  end
+  object lbl18: TLabel
+    Left = 32
+    Top = 408
+    Width = 454
+    Height = 26
+    Caption = 
+      'NOTA: Todo el formulario debe completarse en min'#250'scula, completo' +
+      ' y correctamente para que '#13#10'se genere todo correctamente'
+    Color = clWhite
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clRed
+    Font.Height = -11
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentColor = False
+    ParentFont = False
+  end
+  object btn1: TButton
+    Left = 176
+    Top = 456
+    Width = 129
+    Height = 33
+    Caption = 'Siguiete'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clBlue
+    Font.Height = -19
+    Font.Name = 'Old English Text MT'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 0
+    OnClick = btn1Click
+  end
+end

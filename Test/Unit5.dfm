@@ -1,0 +1,59 @@
+object Form5: TForm5
+  Left = 470
+  Top = 288
+  BorderStyle = bsSingle
+  Caption = 'Test'
+  ClientHeight = 237
+  ClientWidth = 242
+  Color = clMaroon
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 32
+    Top = 16
+    Width = 201
+    Height = 13
+    Caption = '3.'#191'En que a'#241'o fue el terremoto de Lisboa?'
+  end
+  object RadioGroup1: TRadioGroup
+    Left = 32
+    Top = 40
+    Width = 193
+    Height = 113
+    Items.Strings = (
+      '1833'
+      '1844'
+      '1755')
+    TabOrder = 0
+  end
+  object Button2: TButton
+    Left = 80
+    Top = 176
+    Width = 73
+    Height = 41
+    Caption = 'Siguiente'
+    Default = True
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Old English Text MT'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 1
+    OnClick = Button2Click
+  end
+  object Edit1: TEdit
+    Left = 256
+    Top = 48
+    Width = 73
+    Height = 21
+    TabOrder = 2
+    Text = 'Edit1'
+  end
+end

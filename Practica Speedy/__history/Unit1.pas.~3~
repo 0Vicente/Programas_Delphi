@@ -1,0 +1,67 @@
+unit Unit1;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, StdCtrls, ExtCtrls, jpeg, ComCtrls;
+
+type
+  TForm1 = class(TForm)
+    img1: TImage;
+    tmr1: TTimer;
+    lbl1: TLabel;
+    Label1: TLabel;
+    ComboBox1: TComboBox;
+    Button11: TButton;
+    Button12: TButton;
+    Button13: TButton;
+    PageControl1: TPageControl;
+    TabSheet1: TTabSheet;
+    TabSheet2: TTabSheet;
+    Button1: TButton;
+    Button2: TButton;
+    Button3: TButton;
+    Button4: TButton;
+    Button5: TButton;
+    Button6: TButton;
+    Button7: TButton;
+    Button8: TButton;
+    TabSheet3: TTabSheet;
+    Button9: TButton;
+    Button10: TButton;
+    Button14: TButton;
+    Button15: TButton;
+    Label3: TLabel;
+    Edit2: TEdit;
+    Button16: TButton;
+    Button17: TButton;
+    Button18: TButton;
+    Edit1: TEdit;
+    Label2: TLabel;
+    procedure tmr1Timer(Sender: TObject);
+    procedure Button13Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form1: TForm1;
+
+implementation
+
+{$R *.dfm}
+
+procedure TForm1.Button13Click(Sender: TObject);
+begin
+Close;
+end;
+
+procedure TForm1.tmr1Timer(Sender: TObject);
+begin
+lbl1.Caption:=TimeToStr(now);
+end;
+
+end.

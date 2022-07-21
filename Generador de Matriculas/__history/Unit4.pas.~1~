@@ -1,0 +1,29 @@
+unit Unit4;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, DB, ADODB, StdCtrls, Grids, DBGrids;
+
+type
+  TForm4 = class(TForm)
+    DBGrid1: TDBGrid;
+    Edit1: TEdit;
+    ADOConnection1: TADOConnection;
+    ADOQuery1: TADOQuery;
+    DataSource1: TDataSource;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form4: TForm4;
+
+implementation
+
+{$R *.dfm}
+
+end.
